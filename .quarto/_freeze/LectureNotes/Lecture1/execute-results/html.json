@@ -1,10 +1,10 @@
 {
-  "hash": "fc5084e33bbcce89ba49a9b632e6d33d",
+  "hash": "170ff03daf42defa0e2da21580964f58",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Lecture 1\"\n---\n\n# Lecture 1: Mechanics\n\nEquation example: $E = \\frac{1}{2}mv^2$\n\n## Example Plot\n\nA plot of $y = x^2$\n\n::: {#3915a55c .cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])\ny = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])\n\nfig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches\nax.plot(x, y, marker='o', label=r\"$y = x^2$\")\n\nax.set_title(\"Example Plot: $y = x^2$\", fontsize=16)\nax.set_xlabel(\"x\", fontsize=14)\nax.set_ylabel(\"y\", fontsize=14)\n\nax.grid(True)\nax.legend(fontsize=12)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](Lecture1_files/figure-html/cell-2-output-1.png){width=739 height=537}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Lecture 1\"\n---\n\n# Lecture 1: Mechanics\n\nEquation example: $E = \\frac{1}{2}mv^2$\n\n## Example Plot\n\nA plot of $y = x^2$\n\n::: {#047c0a99 .cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])\ny = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])\n\nfig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches\nax.plot(x, y, marker='o', label=r\"$y = x^2$\")\n\nax.set_title(\"Example Plot: $y = x^2$\", fontsize=16)\nax.set_xlabel(\"x\", fontsize=14)\nax.set_ylabel(\"y\", fontsize=14)\n\nax.grid(True)\nax.legend(fontsize=12)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](Lecture1_files/figure-html/cell-2-output-1.png){width=739 height=537}\n:::\n:::\n\n\n",
     "supporting": [
-      "Lecture1_files"
+      "Lecture1_files\\figure-html"
     ],
     "filters": [],
     "includes": {}

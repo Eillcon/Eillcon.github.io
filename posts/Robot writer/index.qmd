@@ -1,0 +1,13 @@
+---
+title: "Robot writer"
+description: "A university project controlling an XY plotting robot using C"
+date: "12-20-2025"
+categories: [University]
+image: "thumbnail.jpg"
+---
+
+Robot writer
+
+![](thumbnail.jpg)
+
+BLAH

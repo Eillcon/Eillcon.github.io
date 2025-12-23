@@ -2,4 +2,12 @@
 title: "Lecture Notes"
 ---
 
+::: {.callout-important collapse="true"}
+## This section is a work in progress.
+
+Re-writing all of my lecture notes from the last 3 years with LaTex maths and coding all the plots is an ambitious endeavour, hence why this section is incomplete.
+:::
+
+This project started as I wanted to create a place for me to be able to access my university notes at any point in the future, no matter when I needed them. I also wanted them t be legible for years to come (and have to decipher any handwriting). This led me to creating this section on my website, a section which will teach YOU how to be an engineer!
+
 - [Lecture 1](Lecture1.qmd)

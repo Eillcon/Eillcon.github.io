@@ -1,0 +1,11 @@
+---
+title: "Personal website"
+description: "A place for me to host my CV, projects and lecture notes."
+date: "2025-12-23"
+categories: [Personal]
+image: "image.jpg"
+---
+
+## Personal website
+
+This is my website

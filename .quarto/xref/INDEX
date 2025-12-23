@@ -28,5 +28,11 @@
   },
   "LectureNotes/LectureNotesTemplate.qmd": {
     "LectureNotesTemplate.html": "f7fbf6a1"
+  },
+  "posts/Robot writer/index.qmd": {
+    "index.html": "0d8f010d"
+  },
+  "posts/Personal website/index.qmd": {
+    "index.html": "3a9e2a56"
   }
 }

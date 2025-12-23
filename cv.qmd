@@ -2,4 +2,4 @@
 title: "My CV"
 ---
 
-<iframe src="Callum O'Neill CV.pdf" height=100% width=90%>
+<iframe src="assets/Callum O'Neill CV.pdf" height=100% width=87%>
