@@ -1,0 +1,13 @@
+---
+title: "Test project 2"
+description: "Personal expansion of university project"
+date: "2025-12-20"
+categories: [University, Personal]
+image: "thumbnail.jpg"
+---
+
+Test project 2 title
+
+![](thumbnail.jpg)
+
+BLAH

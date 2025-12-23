@@ -1,0 +1,8 @@
+format:
+  html:
+    toc:
+      depth: 2
+      float: true
+
+chapters:
+  - file: lecture1.qmd

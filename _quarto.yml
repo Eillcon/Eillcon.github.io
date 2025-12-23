@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  description: "A blog built with Quarto"
+  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  title: "Callum O'Neill"
+  navbar:
+    left:
+      - text: CV
+        href: cv.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Lecture Notes
+        href: LectureNotes/index.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/callum-oneill-/
+      - icon: github
+        href: https://github.com/Eillcon
+format:
+  html:
+    theme: 
+      - Morph
+      - brand
+    css: styles.css
+

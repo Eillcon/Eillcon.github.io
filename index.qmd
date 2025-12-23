@@ -1,0 +1,17 @@
+---
+title: "Callum O'Neill"
+image: profile.jpg
+about:
+  template: jolla
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/callum-oneill-/
+    - icon: github
+      text: Github
+      href: https://github.com/Eillcon
+
+---
+
+MEng Mechanical Engineering (Hons) | First class

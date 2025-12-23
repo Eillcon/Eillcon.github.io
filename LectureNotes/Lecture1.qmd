@@ -1,0 +1,30 @@
+---
+title: "Lecture 1"
+---
+
+# Lecture 1: Mechanics
+
+Equation example: $E = \frac{1}{2}mv^2$
+
+## Example Plot
+
+A plot of $y = x^2$
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])
+y = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])
+
+fig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches
+ax.plot(x, y, marker='o', label=r"$y = x^2$")
+
+ax.set_title("Example Plot: $y = x^2$", fontsize=16)
+ax.set_xlabel("x", fontsize=14)
+ax.set_ylabel("y", fontsize=14)
+
+ax.grid(True)
+ax.legend(fontsize=12)
+plt.show()
+```

@@ -1,0 +1,12 @@
+{
+  "hash": "bb3ba1b93b9f94be18b5ca97b6db0a28",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Template project 1\"\ndescription: \"University project\"\ndate: \"2025-12-23\"\ncategories: [University]\nimage: \"image.jpg\"\n---\n\nThis is a project with executable code.\n\nblah body text blah\n\n::: {#4110fb57 .cell execution_count=1}\n``` {.python .cell-code}\nprint(\"hello\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nhello\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
