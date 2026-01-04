@@ -2,7 +2,7 @@
 title: "Lecture Notes"
 ---
 
-::: {.callout-important collapse="true"}
+::: {.callout-important collapse="true" appearance="default"}
 ## This section is a work in progress.
 
 Re-writing all of my lecture notes from the last 3 years with LaTex maths and coding all the plots is an ambitious endeavour, hence why this section is incomplete.

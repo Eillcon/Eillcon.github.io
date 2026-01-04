@@ -1,6 +1,6 @@
 ---
 title: "Callum O'Neill"
-image: assets/profile.jpg
+image: assets/profilepicture.jpeg
 about:
   template: jolla
   image-shape: rounded

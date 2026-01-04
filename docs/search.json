@@ -25,21 +25,21 @@
     "href": "LectureNotes/index.html",
     "title": "Lecture Notes",
     "section": "",
-    "text": "ImportantThis section is a work in progress.\n\n\n\n\n\nRe-writing all of my lecture notes from the last 3 years with LaTex maths and coding all the plots is an ambitious endeavour, hence why this section is incomplete.\n\n\n\nThis project started as I wanted to create a place for me to be able to access my university notes at any point in the future, no matter when I needed them. I also wanted them t be legible for years to come (and have to decipher any handwriting). This led me to creating this section on my website, a section which will teach YOU how to be an engineer!\n\nLecture 1"
+    "text": "ImportantThis section is a work in progress.\n\n\n\n\n\nRe-writing all of my lecture notes from the last 3 years with LaTex maths and coding all the plots is an ambitious endeavour, hence why this section is incomplete.\n\n\n\nThis project started as I wanted to create a place for me to be able to access my university notes at any point in the future, no matter when I needed them. I also wanted them t be legible for years to come (and have to decipher any handwriting). This led me to creating this section on my website.\n\nLecture 1"
   },
   {
     "objectID": "LectureNotes/Lecture1.html",
     "href": "LectureNotes/Lecture1.html",
     "title": "Lecture 1",
     "section": "",
-    "text": "Equation example: \\(E = \\frac{1}{2}mv^2\\)\n\n\nA plot of \\(y = x^2\\)\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])\ny = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])\n\nfig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches\nax.plot(x, y, marker='o', label=r\"$y = x^2$\")\n\nax.set_title(\"Example Plot: $y = x^2$\", fontsize=16)\nax.set_xlabel(\"x\", fontsize=14)\nax.set_ylabel(\"y\", fontsize=14)\n\nax.grid(True)\nax.legend(fontsize=12)\nplt.show()"
+    "text": "Equation example: \\(E = \\frac{1}{2}mv^2\\)\n\n\nA plot of \\(y = x^2\\)\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nplt.style.use('dark_background')\n\nx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])\ny = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])\n\nfig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches\nax.plot(x, y, marker='o', label=r\"$y = x^2$\")\n\nax.set_title(\"Example Plot: $y = x^2$\", fontsize=16)\nax.set_xlabel(\"x\", fontsize=14)\nax.set_ylabel(\"y\", fontsize=14)\n\nax.grid(True)\nax.legend(fontsize=12)\n\nplt.show()\n\n\n\n\n\n\n\n\ntest text blah blah blah"
   },
   {
     "objectID": "LectureNotes/Lecture1.html#example-plot",
     "href": "LectureNotes/Lecture1.html#example-plot",
     "title": "Lecture 1",
     "section": "",
-    "text": "A plot of \\(y = x^2\\)\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])\ny = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])\n\nfig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches\nax.plot(x, y, marker='o', label=r\"$y = x^2$\")\n\nax.set_title(\"Example Plot: $y = x^2$\", fontsize=16)\nax.set_xlabel(\"x\", fontsize=14)\nax.set_ylabel(\"y\", fontsize=14)\n\nax.grid(True)\nax.legend(fontsize=12)\nplt.show()"
+    "text": "A plot of \\(y = x^2\\)\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nplt.style.use('dark_background')\n\nx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])\ny = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])\n\nfig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches\nax.plot(x, y, marker='o', label=r\"$y = x^2$\")\n\nax.set_title(\"Example Plot: $y = x^2$\", fontsize=16)\nax.set_xlabel(\"x\", fontsize=14)\nax.set_ylabel(\"y\", fontsize=14)\n\nax.grid(True)\nax.legend(fontsize=12)\n\nplt.show()\n\n\n\n\n\n\n\n\ntest text blah blah blah"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -53,14 +53,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Personal website\n\n\n\nPersonal\n\n\n\nA place for me to host my CV, projects and lecture notes.\n\n\n\n\n\n\nDec 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobot writer\n\n\n\nUniversity\n\n\n\nA university project controlling an XY plotting robot using C\n\n\n\n\n\n\nDec 20, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "These are my projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal website\n\n\n\nPersonal\n\n\n\nA place for me to host my CV, projects and lecture notes.\n\n\n\n\n\n\nDec 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobot writer\n\n\n\nUniversity\n\n\n\nA university project controlling an XY plotting robot using C\n\n\n\n\n\n\nDec 20, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Robot writer/index.html",
     "href": "posts/Robot writer/index.html",
     "title": "Robot writer",
     "section": "",
-    "text": "Robot writer\n\nBLAH"
+    "text": "Robot writer\nPhoto of finished result"
   },
   {
     "objectID": "posts/Personal website/index.html",

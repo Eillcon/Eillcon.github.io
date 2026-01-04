@@ -383,7 +383,7 @@ button,
 html,
 body {
     background-color: var(--bg-main);
-    color: #626262;
+    color: #ffffff;
     /* default text for normal paragraphs */
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
         "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -392,15 +392,86 @@ body {
     z-index: 0;
 }
 
-/* =====================================================
-   Callout text independent from global body color
-===================================================== */
-.callout p {
-    color: #596d95;
-    /* bright text for readability inside callouts */
+/* ===============================
+ Callout background colour change 
+ ================================ */
+
+div.callout-note.callout-style-default>.callout-header {
+    background-color: rgb(20.4, 33.6, 45.9);
 }
 
-.callout-important p:first-child strong {
-    color: #cf0000;
-    /* dark header for Important callouts */
+div.callout-warning.callout-style-default>.callout-header {
+    background-color: rgb(69.3, 53.1, 3);
+}
+
+div.callout-important.callout-style-default>.callout-header {
+    background-color: rgb(63.6, 19.2, 0);
+}
+
+div.callout-tip.callout-style-default>.callout-header {
+    background-color: rgb(34.2, 45.9, 23.4);
+}
+
+div.callout-caution.callout-style-default>.callout-header {
+    background-color: rgb(71.4, 29.7, 14.7);
+}
+
+/* Remove grey border on all default callouts */
+div.callout.callout-style-default {
+    border: none !important;
+    /* removes the light grey border */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    /* optional glassy shadow */
+}
+
+/* Optional: give a subtle accent border instead */
+div.callout.callout-style-default {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    /* subtle glassy border */
+}
+
+/* Change burger icon color to match accent */
+.navbar-toggler-icon {
+    filter: invert(63%) sepia(28%) saturate(3843%) hue-rotate(190deg) brightness(94%) contrast(95%);
+}
+
+/* Optional: hover effect for feedback */
+.navbar-toggler:hover .navbar-toggler-icon {
+    filter: invert(70%) sepia(30%) saturate(4000%) hue-rotate(190deg) brightness(105%) contrast(100%);
+}
+
+/* Make homepage description text more readable */
+div.description {
+    color: var(--text-muted);
+    /* lighter grey for contrast */
+    font-size: 1rem;
+    /* adjust size if needed */
+    line-height: 1.5;
+}
+
+/* Homepage category tag styling */
+div.quarto-categories .quarto-category {
+    background: rgba(25, 30, 45, 0.55);
+    /* glassy background */
+    color: var(--text-muted);
+    /* light grey text */
+    border: none;
+    /* remove default border */
+    border-radius: 10px;
+    /* rounded corners */
+    padding: 0.35rem 0.65rem;
+    /* spacing inside tag */
+    display: inline-block;
+    font-size: 0.85rem;
+    margin: 0.15rem 0;
+    /* spacing between tags if multiple */
+    cursor: default;
+    /* optional: pointer or default */
+}
+
+/* Hover / active effect (optional) */
+div.quarto-categories .quarto-category:hover,
+div.quarto-categories .quarto-category.active {
+    background: rgba(35, 40, 60, 0.65);
+    color: var(--text-main);
 }

@@ -20,18 +20,15 @@
 
 
 
-<section id="personal-website" class="level2">
-<h2 class="anchored" data-anchor-id="personal-website">Personal website</h2>
 <p>This is my website</p>
 
 
-</section>
 
  ]]></description>
   <category>Personal</category>
   <guid>https://eillcon.github.io/posts/Personal website/</guid>
   <pubDate>Tue, 23 Dec 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://eillcon.github.io/posts/Personal website/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://eillcon.github.io/posts/Personal website/thumbnail.png" medium="image" type="image/png" height="111" width="144"/>
 </item>
 <item>
   <title>Robot writer</title>
@@ -43,8 +40,7 @@
 
 
 <p>Robot writer</p>
-<p><img src="https://eillcon.github.io/posts/Robot writer/thumbnail.jpg" class="img-fluid"></p>
-<p>BLAH</p>
+<p><img src="https://eillcon.github.io/posts/Robot writer/thumbnail.jpeg" class="img-fluid"></p>
 
 
 
@@ -52,7 +48,7 @@
   <category>University</category>
   <guid>https://eillcon.github.io/posts/Robot writer/</guid>
   <pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://eillcon.github.io/posts/Robot writer/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://eillcon.github.io/posts/Robot writer/thumbnail.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
