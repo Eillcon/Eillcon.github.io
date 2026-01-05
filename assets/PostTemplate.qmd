@@ -7,7 +7,7 @@ image: ""
 ---
 
 ::: {.project-nav}
-[← Back to Projects](projects.html)
+[← Back to Projects](https://eillcon.github.io/projects.html)
 :::
 
 # TITLE
@@ -29,8 +29,8 @@ image: ""
 ## Results
 
 
-![Homepage Screenshot](homepage.png)
-*Screenshot of the homepage.*
+![](.jpg)
+
 
 ## What I Learned
 
@@ -38,5 +38,5 @@ image: ""
 ## Future Improvements
 
 ::: {.project-nav}
-[← Back to Projects](projects.html)
+[← Back to Projects](https://eillcon.github.io/projects.html)
 :::

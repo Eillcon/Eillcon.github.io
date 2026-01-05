@@ -67,7 +67,7 @@
     "href": "posts/Personal website/index.html",
     "title": "Personal website",
     "section": "",
-    "text": "I designed and built a responsive portfolio website to showcase my CV, projects, and lecture notes using Quarto. The aim was to create a professional and easy-to-navigate platform capable of displaying mathematical content and interactive plots.\nThis website demonstrates interactive visualisation, LaTeX integration, and modern web styling, deployed using GitHub Pages.\n\n\n\nI was responsible for the full implementation, including:\n\nQuarto coding\n\nCustom CSS styling\n\nEmbedding LaTeX for mathematical content\n\nIntegrating interactive Plotly plots\n\nDeploying the site on GitHub Pages\n\n\n\n\n\n\n\n\n\n\nNoteTools used\n\n\n\n\n\n\nQuarto\n\nCSS\n\nGitHub Pages\n\nLaTeX\n\nPlotly\n\n\n\n\n\n\nDeveloped page structure and layout using Quarto\n\nApplied custom CSS for a clean, professional design\n\nEmbedded LaTeX to render mathematical formulas\n\nIntegrated interactive Plotly plots for data visualisation\n\nManaged deployment and version control with GitHub Pages\n\n\n\n\nThe website is fully functional and visually consistent, with a modern and sleek look to stand out from websit. Visitors can easily browse my CV, projects, and lecture notes in a clear and structured format.\n\n\n\nHomepage Screenshot\n\n\n\n\n\n\nImproved technical content presentation and web styling skills\n\nGained practical experience with Quarto and LaTeX integration\n\nLearned to embed interactive data visualisations using Plotly\n\nDeveloped experience deploying and maintaining a self-hosted website\n\n\n\n\n\nAdd additional interactive elements\n\nImprove accessibility and responsiveness\n\nAutomate content updates from source files"
+    "text": "← Back to Projects"
   },
   {
     "objectID": "posts/Personal website/index.html#personal-website",
@@ -80,29 +80,29 @@
     "objectID": "posts/Personal website/index.html#motivation",
     "href": "posts/Personal website/index.html#motivation",
     "title": "Personal website",
-    "section": "",
-    "text": "I designed and built a responsive portfolio website to showcase my CV, projects, and lecture notes using Quarto. The aim was to create a professional and easy-to-navigate platform capable of displaying mathematical content and interactive plots.\nThis website demonstrates interactive visualisation, LaTeX integration, and modern web styling, deployed using GitHub Pages."
+    "section": "Motivation",
+    "text": "Motivation\nI designed and built a responsive portfolio website to showcase my CV, projects, and lecture notes using Quarto. The aim was to create a professional and easy-to-navigate platform capable of displaying mathematical content and interactive plots.\nThis website demonstrates interactive visualisation, LaTeX integration, and modern web styling, deployed using GitHub Pages."
   },
   {
     "objectID": "posts/Personal website/index.html#role",
     "href": "posts/Personal website/index.html#role",
     "title": "Personal website",
-    "section": "",
-    "text": "I was responsible for the full implementation, including:\n\nQuarto coding\n\nCustom CSS styling\n\nEmbedding LaTeX for mathematical content\n\nIntegrating interactive Plotly plots\n\nDeploying the site on GitHub Pages"
+    "section": "Role",
+    "text": "Role\nI was responsible for the full implementation, including:\n\nQuarto coding\n\nCustom CSS styling\n\nEmbedding LaTeX for mathematical content\n\nIntegrating interactive Plotly plots\n\nDeploying the site on GitHub Pages"
   },
   {
     "objectID": "posts/Personal website/index.html#technical-work",
     "href": "posts/Personal website/index.html#technical-work",
     "title": "Personal website",
-    "section": "",
-    "text": "NoteTools used\n\n\n\n\n\n\nQuarto\n\nCSS\n\nGitHub Pages\n\nLaTeX\n\nPlotly\n\n\n\n\n\n\nDeveloped page structure and layout using Quarto\n\nApplied custom CSS for a clean, professional design\n\nEmbedded LaTeX to render mathematical formulas\n\nIntegrated interactive Plotly plots for data visualisation\n\nManaged deployment and version control with GitHub Pages"
+    "section": "Technical Work",
+    "text": "Technical Work\n\n\n\n\n\n\nNoteTools used\n\n\n\n\n\n\nQuarto\n\nCSS\n\nGitHub Pages\n\nLaTeX\n\nPlotly\n\n\n\n\n\n\nDeveloped page structure and layout using Quarto\n\nApplied custom CSS for a clean, professional design\n\nEmbedded LaTeX to render mathematical formulas\n\nIntegrated interactive Plotly plots for data visualisation\n\nManaged deployment and version control with GitHub Pages"
   },
   {
     "objectID": "posts/Personal website/index.html#results",
     "href": "posts/Personal website/index.html#results",
     "title": "Personal website",
-    "section": "",
-    "text": "The website is fully functional and visually consistent, with a modern and sleek look to stand out from websit. Visitors can easily browse my CV, projects, and lecture notes in a clear and structured format.\n\n\n\nHomepage Screenshot"
+    "section": "Results",
+    "text": "Results\nThe website is fully functional and visually consistent, with a modern and sleek look to stand out from websit. Visitors can easily browse my CV, projects, and lecture notes in a clear and structured format.\n\n\n\nHomepage Screenshot"
   },
   {
     "objectID": "posts/Personal website/index.html#tools-used",
@@ -115,15 +115,15 @@
     "objectID": "posts/Personal website/index.html#future-improvements",
     "href": "posts/Personal website/index.html#future-improvements",
     "title": "Personal website",
-    "section": "",
-    "text": "Add additional interactive elements\n\nImprove accessibility and responsiveness\n\nAutomate content updates from source files"
+    "section": "Future Improvements",
+    "text": "Future Improvements\n\nAdd additional interactive elements\n\nImprove accessibility and responsiveness\n\nAutomate content updates from source files\n\n\n← Back to Projects"
   },
   {
     "objectID": "posts/Personal website/index.html#what-i-learned",
     "href": "posts/Personal website/index.html#what-i-learned",
     "title": "Personal website",
-    "section": "",
-    "text": "Improved technical content presentation and web styling skills\n\nGained practical experience with Quarto and LaTeX integration\n\nLearned to embed interactive data visualisations using Plotly\n\nDeveloped experience deploying and maintaining a self-hosted website"
+    "section": "What I Learned",
+    "text": "What I Learned\n\nImproved technical content presentation and web styling skills\n\nGained practical experience with Quarto and LaTeX integration\n\nLearned to embed interactive data visualisations using Plotly\n\nDeveloped experience deploying and maintaining a self-hosted website"
   },
   {
     "objectID": "posts/Robot writer/index.html#motivation",
@@ -179,21 +179,21 @@
     "href": "assets/PostTemplate.html",
     "title": "TITLE",
     "section": "",
-    "text": "NoteTools used\n\n\n\n\n\n\n\n\n\n\n\n\n Screenshot of the homepage."
+    "text": "← Back to Projects"
   },
   {
     "objectID": "assets/PostTemplate.html#technical-work",
     "href": "assets/PostTemplate.html#technical-work",
     "title": "TITLE",
-    "section": "",
-    "text": "NoteTools used"
+    "section": "Technical Work",
+    "text": "Technical Work\n\n\n\n\n\n\nNoteTools used"
   },
   {
     "objectID": "assets/PostTemplate.html#results",
     "href": "assets/PostTemplate.html#results",
     "title": "TITLE",
-    "section": "",
-    "text": "Screenshot of the homepage."
+    "section": "Results",
+    "text": "Results\n Screenshot of the homepage."
   },
   {
     "objectID": "posts/Crank arm optimisation/index.html",
@@ -243,5 +243,33 @@
     "title": "Crank arm optimisation",
     "section": "Future Improvements",
     "text": "Future Improvements\n\nPerform fatigue analysis under cyclic loading\n\nInvestigate alternative materials and cost-performance trade-offs\n\nAutomate optimisation using fully parametric or script-based workflows\n\n\n← Back to Projects"
+  },
+  {
+    "objectID": "assets/PostTemplate.html#motivation",
+    "href": "assets/PostTemplate.html#motivation",
+    "title": "TITLE",
+    "section": "Motivation",
+    "text": "Motivation"
+  },
+  {
+    "objectID": "assets/PostTemplate.html#role",
+    "href": "assets/PostTemplate.html#role",
+    "title": "TITLE",
+    "section": "Role",
+    "text": "Role"
+  },
+  {
+    "objectID": "assets/PostTemplate.html#what-i-learned",
+    "href": "assets/PostTemplate.html#what-i-learned",
+    "title": "TITLE",
+    "section": "What I Learned",
+    "text": "What I Learned"
+  },
+  {
+    "objectID": "assets/PostTemplate.html#future-improvements",
+    "href": "assets/PostTemplate.html#future-improvements",
+    "title": "TITLE",
+    "section": "Future Improvements",
+    "text": "Future Improvements\n\n← Back to Projects"
   }
 ]

@@ -7,7 +7,7 @@ image: "crankarm.png"
 ---
 
 ::: {.project-nav}
-[← Back to Projects](projects.html)
+[← Back to Projects](https://eillcon.github.io/projects.html)
 :::
 
 # Crank Arm Optimisation Study
@@ -65,5 +65,5 @@ The project demonstrated how simulation-led design can be used effectively when 
 - Automate optimisation using fully parametric or script-based workflows
 
 ::: {.project-nav}
-[← Back to Projects](projects.html)
+[← Back to Projects](https://eillcon.github.io/projects.html)
 :::

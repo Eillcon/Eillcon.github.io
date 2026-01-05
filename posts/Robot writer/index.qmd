@@ -7,7 +7,7 @@ image: "thumbnail.jpeg"
 ---
 
 ::: {.project-nav}
-[← Back to Projects](projects.html)
+[← Back to Projects](https://eillcon.github.io/projects.html)
 :::
 
 # RobotWriter – XY Plotter Control Software
@@ -54,5 +54,5 @@ The software successfully drives the XY plotter according to the input files, pr
 - Extend functionality to support more complex plotting tasks
 
 ::: {.project-nav}
-[← Back to Projects](projects.html)
+[← Back to Projects](https://eillcon.github.io/projects.html)
 :::
