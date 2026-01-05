@@ -8,7 +8,7 @@
 <title>Callum O&#39;Neill</title>
 <link>https://eillcon.github.io/projects.html</link>
 <atom:link href="https://eillcon.github.io/projects.xml" rel="self" type="application/rss+xml"/>
-<description>A blog built with Quarto</description>
+<description>My personal website built for hosting my CV and projects</description>
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Mon, 05 Jan 2026 00:00:00 GMT</lastBuildDate>
 <item>
@@ -147,8 +147,8 @@
 
 
 
-<div class="project-nav">
-<p><a href="https://eillcon.github.io/projects.html">← Back to Projects</a></p>
+<div class="button">
+<p><a href="../..\projects.html">← Back to Projects</a></p>
 </div>
 <section id="personal-portfolio-website-developed-with-quarto" class="level1">
 <h1>Personal Portfolio Website – Developed with Quarto</h1>
@@ -244,8 +244,8 @@
 </li>
 <li>Automate content updates from source files</li>
 </ul>
-<div class="project-nav">
-<p><a href="https://eillcon.github.io/projects.html">← Back to Projects</a></p>
+<div class="button">
+<p><a href="../..\projects.html">← Back to Projects</a></p>
 </div>
 
 
@@ -268,7 +268,7 @@
 
 
 <div class="project-nav">
-<p><a href="../projects/">← Back to Projects</a></p>
+<p><a href="https://eillcon.github.io/projects.html">← Back to Projects</a></p>
 </div>
 <section id="robotwriter-xy-plotter-control-software" class="level1">
 <h1>RobotWriter – XY Plotter Control Software</h1>
@@ -353,7 +353,7 @@
 <li>Extend functionality to support more complex plotting tasks</li>
 </ul>
 <div class="project-nav">
-<p><a href="../projects/">← Back to Projects</a></p>
+<p><a href="https://eillcon.github.io/projects.html">← Back to Projects</a></p>
 </div>
 
 

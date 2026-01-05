@@ -6,8 +6,8 @@ categories: []
 image: ""
 ---
 
-::: {.project-nav}
-[← Back to Projects](../../projects/)
+::: {.button}
+[← Back to Projects](/projects.html)
 :::
 
 # TITLE
@@ -37,6 +37,6 @@ image: ""
 
 ## Future Improvements
 
-::: {.project-nav}
-[← Back to Projects](../../projects/)
+::: {.button}
+[← Back to Projects](/projects.html)
 :::

@@ -6,8 +6,8 @@ categories: [University]
 image: "thumbnail.jpeg"
 ---
 
-::: {.project-nav}
-[← Back to Projects](https://eillcon.github.io/projects.html)
+::: {.button}
+[← Back to Projects](/projects.html)
 :::
 
 # RobotWriter – XY Plotter Control Software
@@ -53,6 +53,6 @@ The software successfully drives the XY plotter according to the input files, pr
 - Add diagnostic logging for easier troubleshooting  
 - Extend functionality to support more complex plotting tasks
 
-::: {.project-nav}
-[← Back to Projects](https://eillcon.github.io/projects.html)
+::: {.button}
+[← Back to Projects](/projects.html)
 :::

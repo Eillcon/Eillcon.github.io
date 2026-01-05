@@ -6,8 +6,8 @@ categories: [Personal]
 image: "thumbnail.png"
 ---
 
-::: {.project-nav}
-[← Back to Projects](https://eillcon.github.io/projects.html)
+::: {.button}
+[← Back to Projects](/projects.html)
 :::
 
 # Personal Portfolio Website – Developed with Quarto
@@ -59,6 +59,6 @@ The website is fully functional and visually consistent, with a modern and sleek
 - Improve accessibility and responsiveness  
 - Automate content updates from source files
 
-::: {.project-nav}
-[← Back to Projects](https://eillcon.github.io/projects.html)
+::: {.button}
+[← Back to Projects](/projects.html)
 :::
