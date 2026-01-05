@@ -165,10 +165,98 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Robot writer</p>
-<p>Photo of finished result <img src="thumbnail.jpeg" class="img-fluid"></p>
+<div class="project-nav">
+<p><a href="projects.html">← Back to Projects</a></p>
+</div>
+<section id="robotwriter-xy-plotter-control-software" class="level1">
+<h1>RobotWriter – XY Plotter Control Software</h1>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>The RobotWriter project was a university assignment to control an XY plotter using a provided RS232 interface and serial input file. The objective was to write software that reliably interprets the input and drives the plotter to produce accurate output.</p>
+</section>
+<section id="role" class="level2">
+<h2 class="anchored" data-anchor-id="role">Role</h2>
+<p>I was responsible for <strong>writing and testing all the C code</strong> used to control the plotter, including:</p>
+<ul>
+<li>Calling the provided RS232 and serial functions to drive the plotter<br>
+</li>
+<li>Parsing input instructions and manually generating G-code to control motion<br>
+</li>
+<li>Implementing error checking to ensure reliable operation<br>
+</li>
+<li>Testing and debugging the software to achieve accurate, repeatable results</li>
+</ul>
+<p>The full code can be viewed on my <a href="https://github.com/Eillcon/Robot-Writer">GitHub repository</a>.</p>
+</section>
+<section id="technical-work" class="level2">
+<h2 class="anchored" data-anchor-id="technical-work">Technical Work</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Tools used
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>C<br>
+</li>
+<li>G-code generator<br>
+</li>
+<li>GitHub<br>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<ul>
+<li>Developed the main C program to control the XY plotter<br>
+</li>
+<li>Learned and implemented <strong>G-code manually</strong> to generate motion commands<br>
+</li>
+<li>Added validation and error handling to prevent motion errors<br>
+</li>
+<li>Conducted iterative testing to ensure consistent performance</li>
+</ul>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>The software successfully drives the XY plotter according to the input files, producing accurate and reliable output. Manual G-code generation allowed precise control over plotting sequences.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="thumbnail.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Image of testing</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<ul>
+<li>Strengthened skills in <strong>C programming</strong> for hardware control<br>
+</li>
+<li>Learned <strong>G-code generation</strong> and applied it to software-driven motion<br>
+</li>
+<li>Gained experience in <strong>software testing, debugging, and error handling</strong> for embedded systems</li>
+</ul>
+</section>
+<section id="future-improvements" class="level2">
+<h2 class="anchored" data-anchor-id="future-improvements">Future Improvements</h2>
+<ul>
+<li>Add diagnostic logging for easier troubleshooting<br>
+</li>
+<li>Extend functionality to support more complex plotting tasks</li>
+</ul>
+<div class="project-nav">
+<p><a href="projects.html">← Back to Projects</a></p>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

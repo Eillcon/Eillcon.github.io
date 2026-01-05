@@ -34,5 +34,14 @@
   },
   "posts/Personal website/index.qmd": {
     "index.html": "3a9e2a56"
+  },
+  "assets/LectureNotesTemplate.qmd": {
+    "LectureNotesTemplate.html": "802ed7c7"
+  },
+  "assets/PostTemplate.qmd": {
+    "PostTemplate.html": "df07aee2"
+  },
+  "posts/Crank arm optimisation/index.qmd": {
+    "index.html": "051a45ac"
   }
 }

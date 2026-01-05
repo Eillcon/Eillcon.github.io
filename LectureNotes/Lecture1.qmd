@@ -8,27 +8,29 @@ Equation example: $E = \frac{1}{2}mv^2$
 
 ## Example Plot
 
-A plot of $y = x^2$
-
+Test 
 ```{python}
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 import numpy as np
-plt.style.use('dark_background')
 
-x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])
-y = np.array([0, 1, 4, 9, 16, 25, 36, 49, 64])
+X, Y, Z = np.mgrid[-5:5:40j, -5:5:40j, 0:5:20j]
 
-fig, ax = plt.subplots(figsize=(9,6))  # width=10, height=6 inches
-ax.plot(x, y, marker='o', label=r"$y = x^2$")
+values = X * X * 0.5 + Y * Y + Z * Z * 2
 
-ax.set_title("Example Plot: $y = x^2$", fontsize=16)
-ax.set_xlabel("x", fontsize=14)
-ax.set_ylabel("y", fontsize=14)
+fig = go.Figure(data=go.Isosurface(
+    x=X.flatten(),
+    y=Y.flatten(),
+    z=Z.flatten(),
+    value=values.flatten(),
+    isomin=30,
+    isomax=50,
+    surface=dict(count=3, fill=0.7, pattern='odd'),
+    showscale=True,
+    caps=dict(x_show=True, y_show=True),
+    ))
 
-ax.grid(True)
-ax.legend(fontsize=12)
-
-plt.show()
+fig.update_layout(
+    margin=dict(t=0, l=0, b=0), # tight layout
+    scene_camera_eye=dict(x=1.86, y=0.61, z=0.98))
+fig.show()
 ```
-
-test text blah blah blah
