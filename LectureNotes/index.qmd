@@ -8,6 +8,6 @@ title: "Lecture Notes"
 Re-writing all of my lecture notes from the last 3 years with LaTex maths and coding all the plots is an ambitious endeavour, hence why this section is incomplete.
 :::
 
-This project started as I wanted to create a place for me to be able to access my university notes at any point in the future, no matter when I needed them. I also wanted them t be legible for years to come (and have to decipher any handwriting). This led me to creating this section on my website.
+This project began as a way to create a reliable, long-term repository for my university notes—accessible whenever I need them. I also wanted to ensure they remain clear and legible for years to come, eliminating the need to decipher handwriting. This idea ultimately led to the creation of this section on my website.
 
 - [Lecture 1](Lecture1.qmd)
