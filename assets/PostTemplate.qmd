@@ -7,7 +7,7 @@ image: ""
 ---
 
 ::: {.project-nav}
-[← Back to Projects](https://eillcon.github.io/projects.html)
+[← Back to Projects](../../projects/)
 :::
 
 # TITLE
@@ -38,5 +38,5 @@ image: ""
 ## Future Improvements
 
 ::: {.project-nav}
-[← Back to Projects](https://eillcon.github.io/projects.html)
+[← Back to Projects](../../projects/)
 :::

@@ -3,7 +3,7 @@ project:
   output-dir: "docs"
 
 website:
-  description: "A blog built with Quarto"
+  description: "My personal website built for hosting my CV and projects"
   site-url: https://eillcon.github.io/
   title: "Callum O'Neill"
   navbar:

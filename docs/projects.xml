@@ -21,7 +21,7 @@
 
 
 <div class="project-nav">
-<p><a href="projects.html">← Back to Projects</a></p>
+<p><a href="https://eillcon.github.io/projects.html">← Back to Projects</a></p>
 </div>
 <section id="crank-arm-optimisation-study" class="level1">
 <h1>Crank Arm Optimisation Study</h1>
@@ -125,7 +125,7 @@
 <li>Automate optimisation using fully parametric or script-based workflows</li>
 </ul>
 <div class="project-nav">
-<p><a href="projects.html">← Back to Projects</a></p>
+<p><a href="https://eillcon.github.io/projects.html">← Back to Projects</a></p>
 </div>
 
 
@@ -268,7 +268,7 @@
 
 
 <div class="project-nav">
-<p><a href="projects.html">← Back to Projects</a></p>
+<p><a href="../projects/">← Back to Projects</a></p>
 </div>
 <section id="robotwriter-xy-plotter-control-software" class="level1">
 <h1>RobotWriter – XY Plotter Control Software</h1>
@@ -353,7 +353,7 @@
 <li>Extend functionality to support more complex plotting tasks</li>
 </ul>
 <div class="project-nav">
-<p><a href="https://eillcon.github.io/projects.html">← Back to Projects</a></p>
+<p><a href="../projects/">← Back to Projects</a></p>
 </div>
 
 
