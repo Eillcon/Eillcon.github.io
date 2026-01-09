@@ -52,6 +52,11 @@ The project demonstrated how simulation-led design can be used effectively when 
 
 ![Crank arm optimisation results](crankarm.png)
 
+::: {.callout-note collapse="true"}
+## The full report can be viewed here
+<iframe src="crankarmreport.pdf" height=1100px width=100%></iframe>
+:::
+
 ## What I Learned
 - Applied topology and parametric optimisation in a structural design context  
 - Strengthened understanding of FEA setup, validation, and limitations  
