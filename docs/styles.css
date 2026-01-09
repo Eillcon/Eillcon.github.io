@@ -1,10 +1,10 @@
 /* =====================================================
-   Fonts
+   Fonts & Typography Imports
 ===================================================== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
 
 /* =====================================================
-   Theme variables
+   Global Theme Variables (Colours, Spacing, Sizes)
 ===================================================== */
 :root {
     --bg-main: #090b10;
@@ -25,7 +25,7 @@
 }
 
 /* =====================================================
-   Background image + overlay
+   Global Background Image & Noise Overlay
 ===================================================== */
 body::before {
     content: "";
@@ -49,12 +49,13 @@ body::after {
 }
 
 /* =====================================================
-   Base layout
+   Base Layout & Page Structure
 ===================================================== */
 html,
 body {
     background-color: var(--bg-main);
-    color: var(--text-main);
+    color: #ffffff;
+    /* final text color */
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
         "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.75;
@@ -73,7 +74,7 @@ main.content {
 }
 
 /* =====================================================
-   Headings
+   Headings & Titles
 ===================================================== */
 h1,
 h2,
@@ -98,7 +99,7 @@ h2 {
 }
 
 /* =====================================================
-   Links
+   Links & Inline Interactions
 ===================================================== */
 a {
     color: var(--accent);
@@ -122,7 +123,7 @@ a:hover::after {
 }
 
 /* =====================================================
-   Fixed Navbar
+   Fixed Navigation Bar
 ===================================================== */
 .navbar {
     position: fixed;
@@ -148,7 +149,7 @@ a:hover::after {
 }
 
 /* =====================================================
-   Sidebar / TOC
+   Sidebar & Table of Contents (TOC)
 ===================================================== */
 #TOC,
 .sidebar {
@@ -191,7 +192,7 @@ a:hover::after {
 }
 
 /* =====================================================
-   Glassmorphism cards (listings, projects)
+   Glassmorphism Cards (Projects, Listings, Grids)
 ===================================================== */
 .card,
 .quarto-grid-item,
@@ -213,9 +214,11 @@ a:hover::after {
 }
 
 /* =====================================================
-   Project card category pills (.quarto-category)
+   Project Category Pills (Global Styling & Hover)
 ===================================================== */
-#projects-page .listing-item .quarto-category {
+.quarto-grid-item .listing-categories .listing-category,
+#projects-page .listing-item .quarto-category,
+div.quarto-categories .quarto-category {
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
@@ -225,18 +228,22 @@ a:hover::after {
     padding: 0.35rem 0.65rem;
     display: inline-block;
     font-size: 0.85rem;
-    margin: 0.15rem 0;
-    /* optional spacing between pills */
+    margin: 0.15rem 0.25rem;
+    cursor: default;
 }
 
+.quarto-grid-item .listing-categories .listing-category:hover,
+.quarto-grid-item .listing-categories .listing-category.active,
 #projects-page .listing-item .quarto-category:hover,
-#projects-page .listing-item .quarto-category.active {
+#projects-page .listing-item .quarto-category.active,
+div.quarto-categories .quarto-category:hover,
+div.quarto-categories .quarto-category.active {
     background: rgba(35, 40, 60, 0.65) !important;
     color: var(--text-main) !important;
 }
 
 /* =====================================================
-   Code blocks & syntax highlighting
+   Code Blocks & Syntax Highlighting
 ===================================================== */
 pre {
     background: linear-gradient(180deg, #0b0f1a, #090d18);
@@ -320,7 +327,7 @@ footer {
 }
 
 /* =====================================================
-   Motion polish
+   Motion & Interaction Polish
 ===================================================== */
 a,
 button,
@@ -329,7 +336,7 @@ button,
 }
 
 /* =====================================================
-   Glassy Project Banner
+   Glassy Project Page Banner
 ===================================================== */
 .quarto-title-banner {
     background: rgba(25, 30, 45, 0.55);
@@ -343,56 +350,8 @@ button,
 }
 
 /* =====================================================
-   Remove border from project category pills
+   Callout Components (Quarto)
 ===================================================== */
-.quarto-grid-item .listing-categories .listing-category,
-#projects-page .listing-item .quarto-category {
-    border: none !important;
-    /* remove the light border */
-    outline: none !important;
-    /* remove default focus outline */
-    box-shadow: none !important;
-    /* remove any extra shadows */
-    background: rgba(25, 30, 45, 0.55) !important;
-    /* glassy background */
-    color: var(--text-muted) !important;
-    border-radius: 10px;
-    /* pill shape */
-    padding: 0.35rem 0.65rem;
-    display: inline-block;
-    font-size: 0.85rem;
-    margin: 0.15rem 0.25rem;
-    /* spacing between pills */
-    cursor: default;
-}
-
-.quarto-grid-item .listing-categories .listing-category:hover,
-.quarto-grid-item .listing-categories .listing-category.active,
-#projects-page .listing-item .quarto-category:hover,
-#projects-page .listing-item .quarto-category.active {
-    background: rgba(35, 40, 60, 0.65) !important;
-    color: var(--text-main) !important;
-}
-
-/* =====================================================
-   Base layout
-===================================================== */
-html,
-body {
-    background-color: var(--bg-main);
-    color: #ffffff;
-    /* default text for normal paragraphs */
-    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.75;
-    position: relative;
-    z-index: 0;
-}
-
-/* ===============================
- Callout background colour change 
- ================================ */
-
 div.callout-note.callout-style-default>.callout-header {
     background-color: rgb(20.4, 33.6, 45.9);
 }
@@ -413,62 +372,27 @@ div.callout-caution.callout-style-default>.callout-header {
     background-color: rgb(71.4, 29.7, 14.7);
 }
 
-/* Remove grey border on all default callouts */
-div.callout.callout-style-default {
-    border: none !important;
-    /* removes the light grey border */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.04);
-    /* optional glassy shadow */
-}
-
-/* Optional: give a subtle accent border instead */
 div.callout.callout-style-default {
     border: 1px solid rgba(255, 255, 255, 0.08);
-    /* subtle glassy border */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
-/* Change burger icon color to match accent */
+/* =====================================================
+   Navbar Mobile Toggle (Burger Icon)
+===================================================== */
 .navbar-toggler-icon {
     filter: invert(63%) sepia(28%) saturate(3843%) hue-rotate(190deg) brightness(94%) contrast(95%);
 }
 
-/* Optional: hover effect for feedback */
 .navbar-toggler:hover .navbar-toggler-icon {
     filter: invert(70%) sepia(30%) saturate(4000%) hue-rotate(190deg) brightness(105%) contrast(100%);
 }
 
-/* Make homepage description text more readable */
+/* =====================================================
+   Homepage Content Styling
+===================================================== */
 div.description {
     color: var(--text-muted);
-    /* lighter grey for contrast */
     font-size: 1rem;
-    /* adjust size if needed */
     line-height: 1.5;
-}
-
-/* Homepage category tag styling */
-div.quarto-categories .quarto-category {
-    background: rgba(25, 30, 45, 0.55);
-    /* glassy background */
-    color: var(--text-muted);
-    /* light grey text */
-    border: none;
-    /* remove default border */
-    border-radius: 10px;
-    /* rounded corners */
-    padding: 0.35rem 0.65rem;
-    /* spacing inside tag */
-    display: inline-block;
-    font-size: 0.85rem;
-    margin: 0.15rem 0;
-    /* spacing between tags if multiple */
-    cursor: default;
-    /* optional: pointer or default */
-}
-
-/* Hover / active effect (optional) */
-div.quarto-categories .quarto-category:hover,
-div.quarto-categories .quarto-category.active {
-    background: rgba(35, 40, 60, 0.65);
-    color: var(--text-main);
 }
