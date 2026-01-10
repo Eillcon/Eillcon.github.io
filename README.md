@@ -6,8 +6,6 @@ This repository contains the source code for my personal website, which I use to
 
 The site is designed to be clear, lightweight, and easy to navigate, with a focus on presenting technical content in a professional and accessible way.
 
----
-
 ## Website Sections
 
 ### Home
@@ -32,8 +30,6 @@ The site is designed to be clear, lightweight, and easy to navigate, with a focu
 * Organised academic notes from my Mechanical Engineering degree
 * Used as both a personal reference and a demonstration of technical understanding
 
----
-
 ## Purpose
 
 The primary goals of this website are to:
@@ -43,15 +39,11 @@ The primary goals of this website are to:
 * Demonstrate technical communication skills
 * Act as a living document that evolves throughout my degree and career
 
----
-
 ## Technologies Used
 
 * HTML and CSS
 * Static site generation
 * GitHub Pages for hosting
-
----
 
 ## Design Philosophy
 
@@ -60,22 +52,16 @@ The primary goals of this website are to:
 * Content-first approach, prioritising clarity over visual complexity
 * Responsive design for desktop and mobile viewing
 
----
-
 ## Hosting
 
 The website is hosted using GitHub Pages and is publicly accessible at:
 [https://eillcon.github.io/](https://eillcon.github.io/)
-
----
 
 ## Future Improvements
 
 * Continued expansion of project write-ups
 * Improved navigation and internal linking
 * Further refinement of layout and accessibility
-
----
 
 ## Author
 
